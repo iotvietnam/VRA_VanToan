@@ -1,4 +1,7 @@
 function Recognition004_Digits()
+% N?p d? li?u train và test
+% Hi?n th? ?nh ng?u nhiên trong b? train
+% Hi?n th? ?nh ng?u nhiên trong b? test
     fprintf('\n Load du lieu train');
     imgTrainAll = loadMNISTImages('./train-images.idx3-ubyte');
     lblTrainAll = loadMNISTLabels('./train-labels.idx1-ubyte');
