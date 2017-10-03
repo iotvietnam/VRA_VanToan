@@ -8,7 +8,7 @@ function Recognition004_Digits()
 
     fprintf('\n Load du lieu test');
     imgTestAll = loadMNISTImages('./t10k-images.idx3-ubyte');
-    lblTestAll = loadMNISTLabels('./train-labels.idx1-ubyte');
+    lblTestAll = loadMNISTLabels('./t10k-labels.idx1-ubyte');
 
     nTrainImages = size(imgTrainAll,2);
     nNumber = randi([1 nTrainImages]);
