@@ -1,5 +1,5 @@
 function ShowTrainImg(n)
-% Hi?n th? ?nh train n
+% Hien thi anh train n
     fprintf('\n Load du lieu train');
     imgTrainAll = loadMNISTImages('./train-images.idx3-ubyte');
     lblTrainAll = loadMNISTLabels('./train-labels.idx1-ubyte');
