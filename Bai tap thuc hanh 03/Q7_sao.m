@@ -24,6 +24,6 @@ function Q7_sao()
     end
     fprintf('\n Confusion matrix:\n');
     disp(count');
-%0     1      2      3      4      5      6      7      8      9
-%979   1132   1027   1009   982    887    958    1028   969    1009
+%0  1	2	3	4	5	6	7	8	9
+%7	6   40  40  38  32  14  36  54  42
 end
