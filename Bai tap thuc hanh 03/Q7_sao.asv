@@ -14,16 +14,16 @@ function Q7_sao()
         count(i,1) =i-1;
     end
     for i =1:10000
-        lb = lblTestAll(i);
-        n = lb+1;
+        n = lblTestAll(i)+1;
             imgTest = imgTestAll(:,i);
             lblPredictTest = predict(Mdl,imgTest');
-            if(lblPredictTest ~=lb) 
+            if(lblPredictTest ~=n) 
                 count(n,2) = count(n,2)+1;
             end
     end
     fprintf('\n Confusion matrix:\n');
     disp(count');
-%0     1      2      3      4      5      6      7      8      9
-%979   1132   1027   1009   982    887    958    1028   969    1009
+%0      1       2       3       4       5       6       7       8       9
+%979    1132    1027    1009    982     887     958     1028    969
+%1009
 end
